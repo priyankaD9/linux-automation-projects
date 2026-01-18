@@ -5,23 +5,23 @@ A collection of Linux automation scripts to monitor system health, detect issues
  ## Features
 1. System Health & Log Monitoring (Project 1.1)
 
-Disk Usage Monitoring – Track disk space and prevent full partitions.
+   Disk Usage Monitoring – Track disk space and prevent full partitions.
 
-Memory Usage Tracking – Monitor RAM usage and detect bottlenecks.
+   Memory Usage Tracking – Monitor RAM usage and detect bottlenecks.
 
-CPU Load Check – Keep an eye on CPU performance trends.
+   CPU Load Check – Keep an eye on CPU performance trends.
 
-SSH Failed Login Detection – Detect unauthorized SSH login attempts.
+   SSH Failed Login Detection – Detect unauthorized SSH login attempts.
 
 2. Automated Backup & Recovery (Project 1.2)
 
-Backup of /etc and /home directories – Protect critical system and user data.
+     Backup of /etc and /home directories – Protect critical system and user data.
 
-Compressed Backups – Save disk space with compressed files.
+     Compressed Backups – Save disk space with compressed files.
 
-Auto Cleanup – Automatically remove old backups.
+     Auto Cleanup – Automatically remove old backups.
 
-Restore Support – Easily restore backups when needed.
+     Restore Support – Easily restore backups when needed.
 
 ## Technologies Used
 
@@ -33,31 +33,18 @@ Git – Version control for code management.
 
  ## Usage
 System Health & Log Monitoring
-## Run system health check
+#### Run system health check
 ./health_check.sh
 
-## Detect failed SSH logins (requires sudo)
+#### Detect failed SSH logins (requires sudo)
 sudo ./ssh_failed_logins.sh
 
 Automated Backup & Recovery
-## Create a backup (requires sudo)
+#### Create a backup (requires sudo)
 sudo ./backup.sh
 
-## Restore from backup (requires sudo)
+#### Restore from backup (requires sudo)
 sudo ./restore.sh
-
-## Project Structure
-project-root/
-│
-├─ project-1.1-Linux-System-Health-Monitoring/
-│   ├─ health_check.sh
-│   └─ ssh_failed_logins.sh
-│
-├─ project-1.2-Automated-Backup-Recovery/
-│   ├─ backup.sh
-│   └─ restore.sh
-│
-└─ README.md
 
 ## Notes
 
